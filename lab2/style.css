@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+    justify-content: end;
+}
+
+.logo-container {
+    flex-grow: 1;
+    margin-left: 30px;
+}
+
+.logo-link {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.logo-img {
+    height: 60px;
+    width: 60px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 20px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav a:hover {
+    color: crimson;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+}
+
+.sidebar {
+    background-color:rgb(119, 119, 119);
+    color: white;
+    width: 200px;
+    padding: 20px;
+    height: 570px;
+    border-right: solid;
+    border-right-width: 4px;
+    border-right-color:black ;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.sidebar a:hover {
+    color: aqua;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 25px 25px 0px 25px;
+    height: 570px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.row img {
+    max-width: 33%;
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    transition: all .25s ease;
+}
+
+.row img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color:rgb(26, 49, 116);
+    color: white;
+    padding: 10px 0;
+    text-align: left;
+    display: flex;
+    justify-content:space-between;
+}
+
+.column {
+    width: 20%; 
+}
+
+.column:first-child {
+    margin-left: 20px;
+}
+.column:last-child {
+    margin-right: 30px;
+}
+
+.column h3 {
+    font-size: 20px;
+}
+
+.column p {
+    margin: 5px 0;
+}
