@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-image: url(https://en.idei.club/uploads/posts/2023-03/1679556803_en-idei-club-p-sino-zhovtii-fon-dizain-pinterest-1.jpg);
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav-list {
+    background-color:white;
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-image: url(https://en.idei.club/uploads/posts/2023-03/1679556803_en-idei-club-p-sino-zhovtii-fon-dizain-pinterest-1.jpg);
+    height: 90px;
+    justify-content: end;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    padding-left: 0;
+}
+
+.nav-list li {
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 0 15px;
+}
+
+.nav-list li:last-of-type {
+    padding-left: 15px;
+    padding-right: 0;
+
+}
+
+.nav-list li a {
+    transition: all .25s ease;
+}
+
+.nav-list li a:hover {
+    color: rgb(0, 142, 24);
+}
+
+.nav-list li:last-of-type a {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgba(239, 69, 69, 0.81);
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 3px;
+    transition: all .25s ease;
+}
+
+.nav-list li:last-of-type a:hover {
+    background-color: rgb(111, 29, 29);
+}
+
+.nav-list li:last-of-type a svg {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.logo-container {
+    flex-grow: 1;
+    margin-left: 30px;
+}
+
+
+.logo-img {
+    height: 70px;
+    width: 70px;
+    transition: all .20s ease;
+}
+
+.logo-img:hover{
+    transform: scale(1.05);
+}
+
+.bars {
+    display: none;
+}
+
+@media (max-width: 750px) {
+    nav .bars {
+        display: block;
+        margin-right: 30px;
+        font-size: 30px;
+    }
+
+    nav .nav-list {
+        display: none;
+    }
+
+    nav:hover .nav-list {
+        display: block;
+        margin-top: 100px;
+        margin-right: 19px;
+        background-color: white;
+        position: relative;
+        padding: 10px 10px 10px 0;
+    }
+}
+
+.content {
+    max-width: 100%;
+    margin: 0 20px 0 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+section {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(0 0 0 / 70%);
+    border: 2px solid gray;
+}
+
+section p {
+    font-size: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form input {
+    font-size: 25px;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+.form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.form h2, button {
+    display: flex;
+    justify-content: center;
+}
+
+.form button {
+    font-size: 25px;
+    background-color:royalblue;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 100%;
+    transition: all .25s ease;
+}
+
+.form button:hover {
+    background-color: rgb(34, 82, 227);
+}
+
+
+.footer {
+    background-color: #c0d9f3;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    margin: 0;
+}
+
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.contacts li {
+    padding: 0 20px;
+    font-size: 35px;
+}
+
+.contacts li:hover {
+    font-weight: 800;
+}
