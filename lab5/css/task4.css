@@ -1,0 +1,27 @@
+body {
+    font-size: 25px;
+    background-color:lightgray;
+    margin: 20px;
+}
+
+input {
+    font-size: 25px;
+    background-color: honeydew;
+}
+
+button {
+    font-size: 25px;
+    transition: all .25s ease;
+    border-radius: 20px;
+    background-color: honeydew;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color:lightsteelblue;
+
+}
+
+p {
+    margin-top: 10px;
+}

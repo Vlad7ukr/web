@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Розрахунок прямокутника</title>
+</head>
+<body>
+    <label for="length">Довжина:</label>
+    <input type="number" id="length" oninput="calculateRectangle()" min="0">
+    <span class="error" id="errorLength"></span>
+    <br> <br>
+    <label for="width">Ширина:</label>
+    <input type="number" id="width" oninput="calculateRectangle()" min="0">
+    <span class="error" id="errorWidth"></span>
+    
+    <p>Периметр: <span id="perimeter"></span></p>
+    <p>Площа: <span id="area"></span></p>
+    <p>Довжина діагоналі: <span id="diagonal"></span></p>
+
+    <script src="./task1.js"></script>
+</body>
+</html>

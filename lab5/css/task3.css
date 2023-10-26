@@ -1,0 +1,12 @@
+body {
+    font-size: 25px;
+    background-color:lightgray;
+    margin: 20px;
+}
+ textarea {
+    background-color: honeydew;
+ }
+
+ p {
+    margin-bottom: 5px;
+ }
